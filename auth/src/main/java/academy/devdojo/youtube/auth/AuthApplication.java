@@ -1,4 +1,4 @@
-package academy.devdojo.youtube.course;
+package academy.devdojo.youtube.auth;
 
 import academy.devdojo.youtube.core.property.JwtConfiguration;
 import org.springframework.boot.SpringApplication;
@@ -11,10 +11,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableConfigurationProperties(value = JwtConfiguration.class)
 @EntityScan({"academy.devdojo.youtube.core.model"})
 @EnableJpaRepositories({"academy.devdojo.youtube.core.repository"})
-public class CourseApplication {
+public class AuthApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(CourseApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(AuthApplication.class, args);
+	}
 
 }
