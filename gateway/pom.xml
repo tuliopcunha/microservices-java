@@ -19,13 +19,20 @@
 	</properties>
 
 	<dependencies>
-
+		<dependency>
+			<groupId>academy.devdojo.youtube</groupId>
+			<artifactId>token</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>academy.devdojo.youtube</groupId>
+			<artifactId>core</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
 		</dependency>
-
-
 	</dependencies>
 
 

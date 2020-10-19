@@ -25,3 +25,6 @@ spring:
     url:  jdbc:mysql://localhost:3306/devdojo?allowPublicRetrieval=true$sslMode=DISABLED
     username: root
     password: root
+jwt:
+  config:
+    type: signed
